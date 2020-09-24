@@ -19,6 +19,7 @@ import TestReducer from 'TestReducer';
 import SetStudent from 'SetStudent';
 import RouterTest from 'RouterTest';
 import RouterTest2 from 'RouterTest2';
+import Language from 'Language';
 
 
 
@@ -179,8 +180,9 @@ function App() {
       <BloodType/> 
       <ClickCount/>
       <Name/> 
-      <RouterTest/> */}
-      <RouterTest2/>
+      <RouterTest/> 
+      <RouterTest2/> */}
+      <Language/>
       
     </div>
   );
