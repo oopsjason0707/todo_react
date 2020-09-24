@@ -1,7 +1,7 @@
 # 회원가입하는 Serializer
 
-from rest_framework, serialziers import ModelSerializer
-from rest_framework, import serializers
+from rest_framework.serializers import ModelSerializer, Serializer
+from rest_framework import serializers
 from .models import User
 
 class SignupSerializer(ModelSerializer):

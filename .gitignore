@@ -2,5 +2,5 @@ _pycache_
 db.sqlite3
 .idea
 .vscode
-._pyc   
+.pyc   
 media

@@ -44,15 +44,6 @@ class Scoreview(viewsets.ModelViewSet):
     serializer_class = ScoreSerializer
 
 
-class StudentBasicSerializer(Serializer):
-    name = serializers.CharField()
-    address = serializers.CharField()
-    email = serializers.CharField()
-
-    def create(self, validated_data):
-        Students.objects.create()
-        {'name':name,}
-        return Students.objects.create(**validated_data)
 
 
 
