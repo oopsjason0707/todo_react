@@ -17,5 +17,5 @@ class Scores(models.Model):
     math = models.IntegerField()
     english = models.IntegerField()
     science = models. IntegerField()
-    reg_date = models.DateField(auto_now_add=True)
+    # reg_date = models.DateField(auto_now_add=True)
     # reg_user = models.ForeignKey(get_user_model(), on_delete=models.CASCADE)

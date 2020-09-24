@@ -41,7 +41,8 @@ INSTALLED_APPS = [
     'rest_framework',
     #app
     'account',
-    'study'
+    'study',
+    'bucketList',
 ]
 
 MIDDLEWARE = [
